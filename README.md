@@ -26,7 +26,7 @@ Resume Analyzer is an AI-powered application that analyzes resumes, extracts can
 
 ---
 
-## Recent Updates (February 21, 2026)
+## Recent Updates (July 21, 2026)
 
 - **🤖 Agentic RAG — Candidate Profile Enrichment & Intelligent Matching**
   - **6-step agentic matching pipeline**: every job-match run now autonomously refreshes stale profiles, ensures a baseline web-search context exists, optionally asks the LLM *which* sources to fetch, assembles a job-aware ranked context, runs a first-pass AI score, and triggers a multi-pass re-match for borderline candidates (score 50–75)
@@ -43,7 +43,7 @@ Resume Analyzer is an AI-powered application that analyzes resumes, extracts can
 
 ---
 
-## Recent Updates (February 19, 2026)
+## Recent Updates (July 10, 2026)
 
 - **🎯 Phase 4: Candidate Matching UX — Loading Indicators, Audit Capture & Collapsible Sidebar**
   - **Loading overlay**: Full-screen spinner + animated progress dots while AI matching runs; button shows inline spinner and "Matching in Progress…" with `disabled` + `aria-busy` attributes
