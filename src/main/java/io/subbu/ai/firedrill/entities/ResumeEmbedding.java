@@ -1,6 +1,5 @@
 package io.subbu.ai.firedrill.entities;
 
-import com.pgvector.PGvector;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
