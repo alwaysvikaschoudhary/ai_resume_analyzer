@@ -43,8 +43,6 @@ public class SystemHealthService {
     @Value("${spring.ai.openai.api-key:}")
     private String llmStudioApiKey;
 
-    private static final int TIMEOUT_MS = 5000;
-
     private final RestTemplate restTemplate = new RestTemplate();
 
     /**

@@ -10,7 +10,6 @@ import io.subbu.ai.firedrill.models.EmploymentType;
 import io.subbu.ai.firedrill.repositories.AuditLogRepository;
 import io.subbu.ai.firedrill.repos.CandidateRepository;
 import io.subbu.ai.firedrill.repositories.EmployeeRepository;
-import io.subbu.ai.firedrill.repositories.UserRepository;
 import jakarta.servlet.http.HttpServletRequest;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
@@ -36,7 +35,6 @@ public class EmployeeService {
 
     private final EmployeeRepository employeeRepository;
     private final CandidateRepository candidateRepository;
-    private final UserRepository userRepository;
     private final AuditLogRepository auditLogRepository;
     private final AuthenticationService authenticationService;
 
