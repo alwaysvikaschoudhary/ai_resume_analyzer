@@ -316,9 +316,6 @@ class EmbeddingServiceTest {
         doNothing().when(embeddingRepository).insertEmbeddingNative(
                 any(), any(), any(), any(), any());
 
-        // When
-        List<ResumeEmbedding> results = embeddingService.generateAndStoreEmbeddings(
-                mockCandidate, "Test content");
 
         // Then - verify candidateId is passed to insertEmbeddingNative
         ArgumentCaptor<String> candidateIdCaptor = ArgumentCaptor.forClass(String.class);
