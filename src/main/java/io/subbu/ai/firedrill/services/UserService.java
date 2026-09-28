@@ -33,7 +33,6 @@ public class UserService {
     private final UserRepository userRepository;
     private final AuditLogRepository auditLogRepository;
     private final AuthenticationService authenticationService;
-    private final PasswordEncoder passwordEncoder;
 
     /**
      * Get all users (admin only)
