@@ -13,7 +13,6 @@ import java.util.UUID;
  * Repository interface for JobRequirement entity operations.
  * Manages job postings and requirements for candidate matching.
  */
-@Repository
 public interface JobRequirementRepository extends JpaRepository<JobRequirement, UUID> {
 
     /**

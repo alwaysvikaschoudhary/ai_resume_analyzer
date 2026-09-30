@@ -14,7 +14,6 @@ import java.util.UUID;
  * Repository interface for Candidate entity operations.
  * Provides CRUD operations and custom queries for candidate management.
  */
-@Repository
 public interface CandidateRepository extends JpaRepository<Candidate, UUID> {
 
     /**

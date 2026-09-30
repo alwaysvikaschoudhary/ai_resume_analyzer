@@ -11,7 +11,6 @@ import java.util.UUID;
 /**
  * Repository for global company impressions, keyed by normalised company name.
  */
-@Repository
 public interface CompanyImpressionRepository extends JpaRepository<CompanyImpression, UUID> {
 
     /**
