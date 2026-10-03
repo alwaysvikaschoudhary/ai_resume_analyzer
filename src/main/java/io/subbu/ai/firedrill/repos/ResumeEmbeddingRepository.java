@@ -14,7 +14,6 @@ import java.util.UUID;
  * Repository interface for ResumeEmbedding entity operations.
  * Provides vector similarity search capabilities using PostgreSQL pgvector extension.
  */
-@Repository
 public interface ResumeEmbeddingRepository extends JpaRepository<ResumeEmbedding, UUID> {
 
     /**
