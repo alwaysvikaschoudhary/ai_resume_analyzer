@@ -17,7 +17,6 @@ import java.util.UUID;
  * Repository interface for ProcessTracker entity operations.
  * Manages tracking records for async resume processing jobs.
  */
-@Repository
 public interface ProcessTrackerRepository extends JpaRepository<ProcessTracker, UUID> {
 
     /**
