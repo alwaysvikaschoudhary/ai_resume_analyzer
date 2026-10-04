@@ -3,7 +3,6 @@ package io.subbu.ai.firedrill.repositories;
 import io.subbu.ai.firedrill.entities.SystemHealth;
 import io.subbu.ai.firedrill.models.ServiceStatus;
 import org.springframework.data.jpa.repository.JpaRepository;
-import org.springframework.stereotype.Repository;
 
 import java.util.List;
 import java.util.Optional;

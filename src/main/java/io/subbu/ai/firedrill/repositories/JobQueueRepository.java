@@ -4,7 +4,6 @@ import io.subbu.ai.firedrill.entities.JobQueue;
 import io.subbu.ai.firedrill.models.JobStatus;
 import io.subbu.ai.firedrill.models.JobType;
 import jakarta.persistence.LockModeType;
-import lombok.extern.slf4j.Slf4j;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;
