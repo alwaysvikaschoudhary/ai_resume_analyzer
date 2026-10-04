@@ -12,7 +12,6 @@ import java.util.UUID;
 /**
  * Repository for SystemHealth entity
  */
-@Repository
 public interface SystemHealthRepository extends JpaRepository<SystemHealth, UUID> {
 
     /**

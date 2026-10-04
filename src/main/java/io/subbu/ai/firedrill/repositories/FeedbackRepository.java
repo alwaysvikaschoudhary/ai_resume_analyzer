@@ -14,7 +14,6 @@ import java.util.UUID;
 /**
  * Repository for Feedback entity
  */
-@Repository
 public interface FeedbackRepository extends JpaRepository<Feedback, UUID> {
 
     /**

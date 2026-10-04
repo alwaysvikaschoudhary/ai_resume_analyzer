@@ -14,7 +14,6 @@ import java.util.UUID;
 /**
  * Repository for Employee entity
  */
-@Repository
 public interface EmployeeRepository extends JpaRepository<Employee, UUID> {
 
     /**
