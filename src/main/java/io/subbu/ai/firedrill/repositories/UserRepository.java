@@ -3,7 +3,6 @@ package io.subbu.ai.firedrill.repositories;
 import io.subbu.ai.firedrill.entities.User;
 import io.subbu.ai.firedrill.models.UserRole;
 import org.springframework.data.jpa.repository.JpaRepository;
-import org.springframework.stereotype.Repository;
 
 import java.util.List;
 import java.util.Optional;
@@ -12,7 +11,6 @@ import java.util.UUID;
 /**
  * Repository for User entity
  */
-@Repository
 public interface UserRepository extends JpaRepository<User, UUID> {
 
     /**

@@ -22,7 +22,6 @@ import java.util.UUID;
  * Repository for JobQueue entity with custom queries for job management.
  * Provides atomic job claiming using pessimistic locking and various query methods.
  */
-@Repository
 public interface JobQueueRepository extends JpaRepository<JobQueue, UUID> {
 
     /**
