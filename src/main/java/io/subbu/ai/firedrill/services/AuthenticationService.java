@@ -9,9 +9,6 @@ import io.subbu.ai.firedrill.repositories.UserRepository;
 import jakarta.servlet.http.HttpServletRequest;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.security.authentication.AuthenticationManager;
-import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
-import org.springframework.security.core.Authentication;
 import org.springframework.security.core.AuthenticationException;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
@@ -28,7 +25,7 @@ import java.util.UUID;
 @Slf4j
 public class AuthenticationService {
 
-    private final AuthenticationManager authenticationManager;
+    
     private final UserRepository userRepository;
     private final AuditLogRepository auditLogRepository;
     private final JwtTokenProvider tokenProvider;
@@ -41,9 +38,7 @@ public class AuthenticationService {
     public AuthResponse login(String username, String password, HttpServletRequest request) {
         try {
             // Authenticate user
-            Authentication authentication = authenticationManager.authenticate(
-                    new UsernamePasswordAuthenticationToken(username, password)
-            );
+            
 
             // Load user
             User user = userRepository.findByUsername(username)
