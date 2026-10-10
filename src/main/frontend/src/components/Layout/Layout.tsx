@@ -216,7 +216,7 @@ const Layout = () => {
         </main>
 
         <footer className={styles.footer}>
-          <p>Resume Analyzer — AI-Powered Candidate Matching © 2025</p>
+          <p>Resume Analyzer — AI-Powered Candidate Matching © 2026</p>
         </footer>
       </div>
     </div>

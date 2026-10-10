@@ -193,7 +193,7 @@ For service tests, use test containers or in-memory databases instead of mocks.
 
 | Factor | Java 21 | Java 25 |
 |--------|---------|---------|
-| **LTS Status** | ✅ LTS until 2029 | ❌ Not LTS (September 2025 release) |
+| **LTS Status** | ✅ LTS until 2029 | ❌ Not LTS (September 2026 release) |
 | **Spring Boot Support** | ✅ Primary target | ⚠️ Cutting edge |
 | **Testing Frameworks** | ✅ Full support | ❌ Limited/experimental |
 | **Production Use** | ✅ Widely adopted | ⚠️ Early adopter |
