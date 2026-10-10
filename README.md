@@ -194,10 +194,12 @@ resume-analyzer/
 │   │   ├── repos/             # Spring Data repositories
 │   │   ├── resolver/          # GraphQL resolvers
 │   │   └── services/          # Business logic
+|   |
 │   ├── resources/
 │   │   ├── application.yml
 │   │   ├── db/                # Flyway migrations
 │   │   └── graphql/schema.graphqls
+|   |
 │   └── frontend/
 │       ├── src/
 │       │   ├── components/    # Reusable React components
@@ -206,6 +208,7 @@ resume-analyzer/
 │       │   ├── services/      # GraphQL & REST clients
 │       │   └── types/         # TypeScript types
 │       └── tests/e2e/         # Playwright E2E tests
+|
 ├── docker/                    # Docker Compose + Dockerfile
 ├── docs/                      # Architecture & API docs
 ├── test-data/                 # Sample resumes
